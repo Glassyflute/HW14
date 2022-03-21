@@ -211,33 +211,3 @@ def search_by_type_year_genre(item_type, year, genre):
 
     return json.dumps(result_list, ensure_ascii=False)
 
-
-
-# шаг 1 - поиск по названию фильма - недавний фильм
-# result_item = search_by_title("14")
-# print(result_item)
-
-# шаг 2 - поиск по диапазону лет выпуска
-# a = search_by_years_range(2011, 2015)
-# print(a)
-
-# шаг 3 - поиск по рейтингу просмотра (группировка по разрешенному возрасту)
-# a = search_by_rating("family")
-# print(a)
-# print(len(a))
-
-# шаг 4 - поиск по названию жанра фильма - вывод 10 недавних фильмов
-# b = search_by_genre("drama")
-# print(b)
-
-# шаг 5
-# c = search_cast_by_coplayers("Rose McIver", "Ben Lamb")
-# c = search_cast_by_coplayers("Jack Black", "Dustin Hoffman")
-# print(c)
-# [('Rose McIver, Ben Lamb, Alice Krige, Honor Kneafsey',), ('Rose McIver, Ben Lamb, Alice Krige, ...
-# Counter({'Honor Kneafsey': 3, 'Alice Krige': 3, 'Sarah Douglas': 2, 'Andy Lucas': 2, 'Richard Ashton': 2, 'Theo Devaney': 2, ...
-
-# шаг 6
-# d = search_by_type_year_genre('Movie', 2020, "drama")
-# print(d)
-# print(type(d))
